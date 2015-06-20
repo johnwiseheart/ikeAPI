@@ -1,6 +1,0 @@
-Options +FollowSymLinks -MultiViews
-# Turn mod_rewrite on
-RewriteEngine On
-RewriteBase /projects/ikeapi/
-
-RewriteRule ^client/?$ client.php?loc=AU [QSA]
